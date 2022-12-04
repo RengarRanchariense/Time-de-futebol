@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Escalando o time</title>
+  </head>
+  <body>
+    <script src="./script.js"></script>
+    <div class="container">
+      <h1>MONTE SUA SELEÇÃO</h1>
+    </div>
+    <div class="time">
+      <div class="nomes">
+        <label for="nome">Nome do jogador: </label>
+        <input type="text" placeholder="Nome" id="nome" class="nome" />
+      </div>
+      <div class="posicoes">
+        <label for="posicao">Posição: </label>
+        <input type="text" placeholder="Posição" id="posi" />
+      </div>
+      <div class="numeros">
+        <label for="numero">Número da Camisa: </label>
+        <input type="text" placeholder="Número" id="num" />
+      </div>
+    </div>
+    <div class="btns">
+      <button class="convocar" id="convocar">Convocar</button>
+      <button class="deletar" id="deletar">Excluir</button>
+    </div>
+    <div class="excluir"></div>
+    <div class="escalados">
+      <div class="seu-time">
+        <h1>SEU TIME</h1>
+      </div>
+      <div class="timeCompleto"></div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/ebbf751a5d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./meujs.js"></script>
+  </body>
+</html>
